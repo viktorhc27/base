@@ -8,7 +8,7 @@ module.exports = {
         host: process.env.DB_HOST
     },
     debug: true,
-    transport: nodemailer.createTransport({
+    /* transport: nodemailer.createTransport({
         host: "mail.kuvesoft.cl",
         port: 465,
         secure: true, // upgrade later with STARTTLS
@@ -16,5 +16,5 @@ module.exports = {
             user: "sendmail@kuvesoft.cl",
             pass: "",
         }
-    })
+    }) */
 }
